@@ -6,10 +6,11 @@
     <title>Ejercicio 6: Cambio de Contenido con `innerHTML`</title>
   </head>
   <body>
-    <!-- Escribe tu codigo html aqui -->
+    <div id="miElemento">Texto inicial</div>
 
     <script>
-      // Escribe tu codigo javascript aqui
+      const elemento = document.getElementById('miElemento')
+      elemento.innerHTML = '<strong>The Boss of the people</strong>'
     </script>
   </body>
 </html>

@@ -6,10 +6,11 @@
     <title>Ejercicio 3: Selección de Elementos con `querySelector`</title>
   </head>
   <body>
-    <!-- Escribe tu codigo html aqui -->
-
-    <script>
-      // Escribe tu codigo javascript aqui
+    <input type="text" id="miInput" value="Valor inicial" />
+   
+     <script>
+         const inputElement = document.querySelector('input[type="text"]')
+      inputElement.value = 'Libreta de lineas'
     </script>
   </body>
 </html>
